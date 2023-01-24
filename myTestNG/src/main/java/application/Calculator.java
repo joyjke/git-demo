@@ -51,23 +51,27 @@ public class Calculator {
 
     //TODO (*) |even or odd| add method which get 1 number as parameter and return true if it even, and false - if odd
     public int evenOrOdd(int value) {
-        if (value % 2 == 0);
-        else;
+        if (value % 2 == 0) ;
+        else ;
         return value;
     }
 
     //TODO (*) |biggest value| add method which get 2 number as parameters and return bigger of them, or 0 if they equals
     public void biggestValue(int a, int b) {
-        if (a > b) ;
-        if (else(a==b));
+        if (a > b)
+            return a;
+        if (a < b)
+            return b;
+        else (a == b)
+        return 0;
     }
 }
-    //***************Hard methods************************
+//***************Hard methods************************
 
-    //TODO (**) |addition with multiple parameters| add method which return sum of any quantity of parameter
+//TODO (**) |addition with multiple parameters| add method which return sum of any quantity of parameter
 
-    //TODO (*) |divide by zero case| add method for division (check division by zero case
-    // - if we try to divide by zero - return -100;
+//TODO (*) |divide by zero case| add method for division (check division by zero case
+// - if we try to divide by zero - return -100;
 
 
 
